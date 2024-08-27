@@ -14,6 +14,5 @@ public class Asteroid : MonoBehaviour
     private void OnParticleCollision(GameObject other)
     {
       Destroy(gameObject);
-      score+=100;
     }
 }
